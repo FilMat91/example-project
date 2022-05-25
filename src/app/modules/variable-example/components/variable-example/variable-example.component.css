@@ -1,0 +1,17 @@
+.row{
+    display: flex;
+    flex-direction: row;}
+
+.column{
+    display: flex;
+    flex-direction: column;}
+
+.title{
+    height: 50px;
+    font-weight: bolder;
+    font-size: x-large;}
+
+.output{
+    height: 50px;
+    font-weight: bolder;
+    font-size: medium;}

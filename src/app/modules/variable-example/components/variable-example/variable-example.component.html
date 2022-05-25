@@ -1,1 +1,55 @@
-<p>variable-example works!</p>
+<div class="w-full h-full column">
+
+    <div class="w-full title">
+        Variables
+    </div>
+
+    <div class="w-full variable-container">
+        <div class="w-full title">
+            Var
+        </div>
+
+        <div *ngFor="let row of getText('var')">
+            <label >{{row}}</label>
+            <br>
+        </div>
+
+        <div class="w-full output">
+            Output: {{getVarString}}
+        </div>
+
+    </div>
+
+    <div class="w-full variable-container">
+        <div class="w-full title">
+            Let
+        </div>
+
+        <div *ngFor="let row of getText('let')">
+            <label >{{row}}</label>
+            <br>
+        </div>
+
+        <div class="w-full output">
+            Output: {{getLetString}}
+        </div>
+
+    </div>
+
+    <div class="w-full variable-container">
+        <div class="w-full title">
+            Cost
+        </div>
+
+        <div *ngFor="let row of getText('const')">
+            <label >{{row}}</label>
+            <br>
+        </div>
+
+        <div class="w-full output">
+            Output: {{getConstString}}
+        </div>
+
+    </div>
+
+</div>
